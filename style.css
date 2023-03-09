@@ -1,0 +1,305 @@
+body{
+    background-color: #2F2FA2;
+}
+
+/* Styling the Navbar */
+
+header{
+    background-color: #24252a;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    left: 0px;
+}
+
+.nav_links {
+    position: fixed;
+    right: 0px;
+    top: 0px;    
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252a;
+    list-style: none;
+}
+
+li, .nav {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ecf0f1;
+    text-decoration: none;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo{
+    position: fixed;
+    left: 10px;
+    top: 5px;
+    cursor: pointer;
+    margin-right: auto;
+    height: 50px;
+    width: 50px;
+}
+
+.nav_links li {
+    display: inline-block
+}
+
+.nav_links li .nav {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li .nav:hover {
+    color: #F64C72;
+}
+
+/* Style of Page 1 */
+
+.page1 {
+    background-color: #2F2FA2;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.img1 {
+    /* display: flex; */
+    justify-content: center;
+    height: 400px;
+    width: 300px;
+    padding: 70px 30px 16px 16px;
+    border-radius: 4px; 
+}
+
+.img1:hover{
+    transform: scale(1.1);
+    transition: 0.25s;
+}
+
+.text1 {
+    color: white;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.heading1 {
+    text-align: center;
+    font-size: 200%;
+    word-spacing: 4px;
+}
+
+.para1{
+    text-align: center;
+}
+
+.btn1{
+    position: relative;
+    right: -750px;
+    top: -30px;
+    height: 50px;
+    width: 180px;
+    border-radius: 20px;
+    padding-top: 5px;
+    font-size: 20px;
+    margin-top: 30px;
+    background: #F64C72;
+    border: 1px solid white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+
+.btn1:hover{
+    transform: scale(1.1);
+    transition: 0.25s;
+}
+
+/* Style of Page 2 */
+
+.page2 {
+    height: 500px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 50px 50px;
+    border-radius: 10px;
+}
+
+.text2 {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.heading2 {
+    text-align: center;
+    font-size: 200%;
+    padding: 25px 0px 0px 0px;
+}
+
+.para2 {
+    text-align: center;
+    padding: 25px 25px 0px 100px;
+}
+
+.img2 {
+    /* position: absolute; */
+    justify-content: center;
+    border: 3px solid;
+    border-radius: 50%;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    top: 700px;
+    
+}
+
+.img2:hover{
+    transform: scale(1.1);
+    transition: 0.25s;
+}
+
+/* Style of Page 3 */
+
+.page3 {
+    background-color: #2F2FA2;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: center;
+    align-items: center;
+    gap: 50px 50px;
+}
+
+.heading3 {
+    color: white;
+    text-align: center;
+    font-size: 200%;
+}
+
+.para3 {
+    color: white;
+    text-align: center;
+    padding: 25px 80px 0px 0px;
+}
+
+.img3 {
+    justify-content: center;
+    height: 400px;
+    width: 300px;
+    padding: 70px 30px 16px 16px;
+}
+
+.img3:hover{
+    transform: scale(1.1);
+    transition: 0.25s;
+}
+
+.btn2,
+.btn3 {
+    height: 50px;
+    width: 180px;
+    border-radius: 20px;
+    /* align-items: center; */
+    /* align-content: center; */
+    /* text-align: center; */
+    font-size: 20px;
+    background: #F64C72;
+    border: 1px solid white;
+    /* box-sizing: border-box; */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /* backdrop-filter: blur(4px); */
+    color: white;
+}
+
+.btn2{
+    position: relative;
+    right: -550px;
+    top: -30px;
+}
+
+.btn2:hover{
+    transform: scale(1.1);
+    transition: 0.25s;
+}
+
+.btn3{
+    position: relative;
+    right: -750px;
+    top: -30px;
+}
+
+.btn3:hover{
+    transform: scale(1.1);
+    transition: 0.25s;
+}
+
+
+/* Styling the footer */
+
+.footer-container{
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    /* padding: 0;
+    margin: 0;
+    box-sizing: border-box; */
+    background-color: #24252a;
+    padding: 2rem 0rem 4rem 0rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer {
+    width: 80%;
+    height: 25vh;
+    background-color: #24252a;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.footer-heading{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem; 
+}
+
+.footer-heading h2 {
+    margin-bottom: 2rem;
+}
+
+.links {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+
+.links-1 {
+    font-size: large;
+}
+
+.links-2:hover {
+    color: #F64C72;
+    transition: 0.3s ease-out;
+}
+
+
+.links-3:hover {
+    color: #F64C72;
+    transition: 0.3s ease-out;
+}
+  
